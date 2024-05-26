@@ -1,5 +1,17 @@
-<app-header [placeholder]="profileData$.name">
+<app-header [placeholder]="profileData$.name"> </app-header>
+<app-person-card
+  *ngIf="profileData$"
+  [avatar_url]="profileData$.avatar_url"
+  [bio]="profileData$.bio"
+  [login]="profileData$.login"
+  [name]="profileData$.name"
+  [followers]="profileData$.followers"
+  [following]="profileData$.following"
+  [company]="profileData$.company"
+  [location]="profileData$.location"
+  [email]="profileData$.email"
+  [website]="profileData$.blog"
+  [twitter_username]="profileData$.twitter_username"
 
-<div *ngIf="profileData$">
-{{ profileData$.id }}
-</div>
+>
+</app-person-card>

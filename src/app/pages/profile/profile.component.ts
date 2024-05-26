@@ -5,11 +5,13 @@ import { UserProfileService } from '../../services/user-profile.service';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { HeaderComponent } from '../../components/header/header.component';
+import { PersonCardComponent } from '../../components/person-card/person-card.component';
+import { IconInfoComponent } from '../../components/icon-info/icon-info.component';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [CommonModule, HeaderComponent],
+  imports: [CommonModule, HeaderComponent, PersonCardComponent],
   providers: [UserProfileService],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.scss',

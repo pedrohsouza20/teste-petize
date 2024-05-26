@@ -1,0 +1,29 @@
+<div>
+  teste
+  <div class="header">
+    <img [src]="avatar_url" alt="" />
+    <div>
+      <h2>{{ name }}</h2>
+      <span>&#64;{{ login }}</span>
+    </div>
+    <p>{{ bio }}</p>
+  </div>
+
+  <div class="info-followers">
+    <app-icon-info symbolL="people" [content]="followers"></app-icon-info>
+    <app-icon-info symbolL="heart" [content]="following"></app-icon-info>
+  </div>
+
+  <div class="info">
+    <app-icon-info symbolL="company" [content]="company"></app-icon-info>
+    <app-icon-info symbolL="location" [content]="location"></app-icon-info>
+    <app-icon-info symbolL="email" [content]="email"></app-icon-info>
+    <app-icon-info symbolL="website" [content]="website"></app-icon-info>
+    <app-icon-info symbolL="twitter" [content]="twitter_username"></app-icon-info>
+  </div>
+
+  <div class="contact">
+    <app-button-action [src]="website" [conditionn]="website" text="Visitar Site"></app-button-action>
+    <app-button-action [src]="twitterUrl()" [conditionn]="twitter_username" text="Visitar Twitter"></app-button-action>
+  </div>
+</div>
