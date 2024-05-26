@@ -1,0 +1,57 @@
+* {
+  font-family: "Nunito", sans-serif;
+  user-select: none;
+}
+
+header {
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 2.2em;
+  text-align: center;
+  margin-right: 100px;
+}
+
+input {
+  margin-right: 32px;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  padding-left: 50px;
+  border: 2px solid #8C19D2;
+  outline: none;
+  user-select: none;
+  color: rgba($color: #000000, $alpha: 0.36);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  height: 48px;
+  width: 100%;
+  max-width: 590px;
+}
+
+.div-input {
+  width: calc(100% - 340px);
+}
+
+button {
+  width: 176px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.125em;
+}
+
+.color-blue {
+  color: #0069ca;
+}
+.color-purple {
+  color: #8c19d2;
+}
+.background-purple{
+  background-color: #8c19d2;
+}
+.color-white{
+  color: #fff;
+}

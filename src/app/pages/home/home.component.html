@@ -7,8 +7,7 @@
   </h1>
   <div class="d-flex justify-content-between w-100">
     <svg
-      style="position: absolute; margin-left: 18px; margin-top: 14px;"
-
+      style="position: absolute; margin-left: 18px; margin-top: 14px"
       width="21"
       height="21"
       viewBox="0 0 21 21"
@@ -21,7 +20,11 @@
       />
     </svg>
 
-    <input type="text" class="d-block" placeholder="Search"/>
-    <button class="background-purple color-white">Search</button>
+    <input id="role" name="role" [formControl]="userName" type="text" class="d-block" placeholder="Search" />
+    <a [routerLink]="['/profile', userName.value]">
+      <button router-link to="s" class="background-purple color-white">
+        Search
+      </button>
+    </a>
   </div>
 </div>
