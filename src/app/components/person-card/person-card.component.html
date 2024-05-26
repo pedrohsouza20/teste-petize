@@ -1,12 +1,13 @@
-<div>
-  teste
+<div class="container">
   <div class="header">
-    <img [src]="avatar_url" alt="" />
-    <div>
-      <h2>{{ name }}</h2>
-      <span>&#64;{{ login }}</span>
+    <div class="d-flex align-items-center">
+      <img class="avatar" [src]="avatar_url" alt="" />
+      <div>
+        <h2>{{ name }}</h2>
+        <span class="login">&#64;{{ login }}</span>
+      </div>
     </div>
-    <p>{{ bio }}</p>
+    <p class="bio">{{ bio }}</p>
   </div>
 
   <div class="info-followers">
@@ -22,7 +23,7 @@
     <app-icon-info symbolL="twitter" [content]="twitter_username"></app-icon-info>
   </div>
 
-  <div class="contact">
+  <div class="contact mt-5">
     <app-button-action [src]="website" [conditionn]="website" text="Visitar Site"></app-button-action>
     <app-button-action [src]="twitterUrl()" [conditionn]="twitter_username" text="Visitar Twitter"></app-button-action>
   </div>

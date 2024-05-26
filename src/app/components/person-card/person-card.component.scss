@@ -1,0 +1,33 @@
+.container {
+    width: 248px;
+    min-width: max-content;
+    max-width: 100%;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #171923;
+    margin-bottom: 0px;
+}
+
+span.login {
+    font-family: 14px;
+    color: #A0AEC0;
+    margin-top: -80px;
+    margin-bottom: 16px;
+}
+
+.bio {
+    font-size: 16px;
+    color: #4A5568;
+    max-width: 248px;
+}
