@@ -1,7 +1,6 @@
-import { Component, NgModule } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
-import { UserProfileService } from '../../services/user-profile.service';
 
 @Component({
   selector: 'app-home',

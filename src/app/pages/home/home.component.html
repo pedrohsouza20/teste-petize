@@ -22,7 +22,7 @@
 
     <input id="role" name="role" [formControl]="userName" type="text" class="d-block" placeholder="Search" />
     <a [routerLink]="['/profile', userName.value]">
-      <button router-link to="s" class="background-purple color-white">
+      <button [disabled]="userName.value!.length < 1" router-link to="s" class="background-purple color-white">
         Search
       </button>
     </a>
