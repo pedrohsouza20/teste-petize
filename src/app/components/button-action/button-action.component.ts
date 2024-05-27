@@ -10,6 +10,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonActionComponent {
   @Input() text = '';
-  @Input() conditionn = '';
+  @Input() argument = '';
   @Input() src = '';
 }
