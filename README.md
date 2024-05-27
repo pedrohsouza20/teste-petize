@@ -11,6 +11,11 @@
 - API de busca de repositórios do usuário pesquisado: https://api.github.com/users/username/repos
 - Documentação oficial do GitHub: https://docs.github.com/en/rest
 
+## Escolha das bibliotecas e estrutura
+Optei por fazer uma parte mais específica do css "puro", onde a opção se fazia mais viável. Em boa parte do projeto, utilizei bootstrap para facilitar o desenvolvimento de flexbox, grid, sizing, spacing etc.
+
+O projeto é component-based, afim de tentar economizar linhas de código por meio do princípio DRY: Don't Repeat Yourself, que visa diminuir a quantidade de código repetidos, problema que vai diretamente contra as boas práticas e princípios de SOLID
+
 ## Versões e Dependências
 
 - Angular CLI: 18.0.1
