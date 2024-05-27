@@ -7,11 +7,12 @@ import { ActivatedRoute } from '@angular/router';
 import { HeaderComponent } from '../../components/header/header.component';
 import { PersonCardComponent } from '../../components/person-card/person-card.component';
 import { IconInfoComponent } from '../../components/icon-info/icon-info.component';
+import { RepositoriesComponent } from '../../components/repositories/repositories.component';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [CommonModule, HeaderComponent, PersonCardComponent],
+  imports: [CommonModule, HeaderComponent, PersonCardComponent, RepositoriesComponent],
   providers: [UserProfileService],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.scss',

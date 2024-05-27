@@ -1,4 +1,4 @@
-<div class="d-flex" *ngIf="content != null">
+<div class="icon-info d-flex align-items-center" *ngIf="content != null">
   <svg
     *ngIf="symbolL == 'people'"
     width="24"
@@ -239,5 +239,7 @@
     />
   </svg>
 
-  <p>{{ content }}</p>
+  <p *ngIf="symbolL != 'people' && symbolL != 'heart'">{{ content }}</p>
+  <p *ngIf="symbolL == 'people'">{{ content }} Seguidores</p>
+  <p *ngIf="symbolL == 'heart'">{{ content }} Seguindo</p>
 </div>

@@ -1,17 +1,22 @@
 <app-header [placeholder]="profileData$.name"> </app-header>
-<app-person-card
-  *ngIf="profileData$"
-  [avatar_url]="profileData$.avatar_url"
-  [bio]="profileData$.bio"
-  [login]="profileData$.login"
-  [name]="profileData$.name"
-  [followers]="profileData$.followers"
-  [following]="profileData$.following"
-  [company]="profileData$.company"
-  [location]="profileData$.location"
-  [email]="profileData$.email"
-  [website]="profileData$.blog"
-  [twitter_username]="profileData$.twitter_username"
-
->
-</app-person-card>
+<div class="container">
+  <div class="row d-flex justify-content-between">
+    <app-person-card class="col col-md-auto"
+    *ngIf="profileData$"
+    [avatar_url]="profileData$.avatar_url"
+    [bio]="profileData$.bio"
+    [login]="profileData$.login"
+    [name]="profileData$.name"
+    [followers]="profileData$.followers"
+    [following]="profileData$.following"
+    [company]="profileData$.company"
+    [location]="profileData$.location"
+    [email]="profileData$.email"
+    [website]="profileData$.blog"
+    [twitter_username]="profileData$.twitter_username"
+  
+  >
+  </app-person-card>
+  <app-repositories class="col col-sm-auto repositories"></app-repositories>
+  </div>
+</div>
