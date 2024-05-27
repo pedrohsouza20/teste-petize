@@ -14,9 +14,9 @@
     [email]="profileData$.email"
     [website]="profileData$.blog"
     [twitter_username]="profileData$.twitter_username"
-  
+
   >
   </app-person-card>
-  <app-repositories class="col col-sm-auto repositories"></app-repositories>
+  <app-repositories [repositoriesUrl]="profileData$.repos_url" class="col col-sm-auto repositories"></app-repositories>
   </div>
 </div>
