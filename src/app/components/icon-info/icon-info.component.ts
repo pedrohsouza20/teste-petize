@@ -13,8 +13,4 @@ import { CommonModule } from '@angular/common';
 export class IconInfoComponent {
   @Input() symbolL = '';
   @Input() content = '';
-  /*constructor(iconsSvgValue: IconsSvgValue) {
-    this.iconSrc = iconsSvgValue.getSvgCode('people');
-    console.log('valor do icone: ', this.iconSrc);
-  }*/
 }

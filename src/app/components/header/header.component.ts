@@ -1,6 +1,4 @@
-import { ProfileComponent } from './../../pages/profile/profile.component';
 import { Component, Input } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -11,5 +9,4 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class HeaderComponent {
   @Input() placeholder = '';
-  constructor(private route$: ActivatedRoute) {}
 }

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { delay, first, tap } from 'rxjs';
+import { tap } from 'rxjs';
 import { UserProfile } from '../interfaces/UserProfile';
 
 @Injectable({
