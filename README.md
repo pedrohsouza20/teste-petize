@@ -14,7 +14,9 @@
 ## Escolha das bibliotecas e estrutura
 Optei por fazer uma parte mais específica do css "puro", onde a opção se fazia mais viável. Em boa parte do projeto, utilizei bootstrap para facilitar o desenvolvimento de flexbox, grid, sizing, spacing etc.
 
-O projeto é component-based, afim de tentar economizar linhas de código por meio do princípio DRY: Don't Repeat Yourself, que visa diminuir a quantidade de código repetidos, problema que vai diretamente contra as boas práticas e princípios de SOLID
+O projeto é component-based, afim de tentar economizar linhas de código por meio do princípio DRY: Don't Repeat Yourself, que visa diminuir a quantidade de código repetidos, problema que vai diretamente contra as boas práticas e princípios de SOLID.
+
+Percebi e aproveitei a viabilidade da utilização de interfaces em alguns pontos da aplicação, afim de aproveitar ainda mais tal vantagem do TypeScript.
 
 ## Versões e Dependências
 
