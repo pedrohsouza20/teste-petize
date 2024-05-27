@@ -1,11 +1,11 @@
-<a [href]="url">
-  <div>
+<div>
+  <a target="_blank" [href]="url">
     <h2>
       {{ name }}
     </h2>
-    <p>
-      {{ description }}
-    </p>
-    <app-icon-info symbolL="star" [content]="stargazers_count"></app-icon-info>
-  </div>
-</a>
+  </a>
+  <p>
+    {{ description }}
+  </p>
+  <app-icon-info symbolL="star" [content]="stargazers_count"></app-icon-info>
+</div>
