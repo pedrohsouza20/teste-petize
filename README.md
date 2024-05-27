@@ -24,4 +24,4 @@
 - Clone o projeto utilizando o git clone;
 - Na pasta do projeto, execute no terminal o comando npm install;
 - Após finalização, basta digitar o comando ng serve, para subir a aplicação localmente na sua máquina;
-- Caso queira um build da aplicação, execute o comando ng build e, após o fim
+- Caso queira um build da aplicação, execute o comando ng build e, após o processo, os arquivos gerados estarão disponíveis na pasta dist.
